@@ -25,7 +25,7 @@ export default async function ProjectsPage() {
 		acc[allProjects[i].slug] = v ?? 0;
 		return acc;
 	}, {} as Record<string, number>);
-	console.log(views)
+	
 	const featured = allProjects.find((project) => project?.slug === "unkey")!;
 	const top2 = allProjects.find((project) => project?.slug === "autoscaling-kubernetes")!;
 	const top3 = allProjects.find((project) => project?.slug === "summarization")!;
