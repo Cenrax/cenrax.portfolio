@@ -10,7 +10,7 @@ const navigation = [
 
 export default function Home() {
 	return (
-		<div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-yellow-100 via-zinc-600/20 to-black">
+		<div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-blue-300 via-zinc-600/20 to-black">
 			<nav className="my-16 animate-fade-in">
 				<ul className="flex flex-wrap items-center justify-center gap-4">
 					{navigation.map((item) => (
@@ -36,11 +36,11 @@ export default function Home() {
 			<div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
 			<div className="my-16 text-center animate-fade-in">
 				<h2 className="text-sm text-gray-50 mx-6">
-					Hi, my name is Subham, I'm building custom software for solving various problems. I am also working on building my product that will accelerate the development and designs of software.
-					solutions at{" "} night.
+					Hi, my name is Subham, I'm building custom software to solve business problems. I am also working part-time on building my product that will accelerate the development and designs of software.
+					
 				</h2>
 				<h2 className="text-sm text-gray-50 mx-10">
-					I am also a open-source enthusiast and I love to contribute to open-source projects. I am learning and optimizing various ML libraries and frameworks to build better and faster solutions.
+					I am also focused on using my software skills to build AI products. I have experience working on both the software and hardware stack of developing and deploying a full-stack LLM based software.
 				</h2>
 			</div>
 		</div>
