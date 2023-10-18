@@ -9,20 +9,11 @@ export const metadata: Metadata = {
 		default: "Cenrax",
 		template: "%s | cenrax",
 	},
-	description: "Software engineer at caravelLabs and co-founder of stealth startup",
+	description: "Software engineer at CaravelLabs and co-founder of stealth startup",
 	openGraph: {
-		title: "chronark.com",
+		title: "cenrax.com",
 		description:
-			"Software engineer at upstash.com and co-founder of ambitus",
-		url: "https://chronark.com",
-		siteName: "chronark.com",
-		images: [
-			{
-				url: "https://chronark.com/og.png",
-				width: 1920,
-				height: 1080,
-			},
-		],
+			"Software engineer at Caravel Labs and co-founder of Ambitus",
 		locale: "en-US",
 		type: "website",
 	},
@@ -36,10 +27,6 @@ export const metadata: Metadata = {
 			"max-image-preview": "large",
 			"max-snippet": -1,
 		},
-	},
-	twitter: {
-		title: "Chronark",
-		card: "summary_large_image",
 	},
 	icons: {
 		shortcut: "/favicon.png",
