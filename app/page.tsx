@@ -40,7 +40,7 @@ export default function Home() {
 					
 				</h2>
 				<h2 className="text-sm text-gray-50 mx-10">
-					I am also focused on using my software skills to build AI products. I have experience working on both the software and hardware stack of developing and deploying a full-stack LLM based software.
+					I am very much focused on using my software skills to build AI products. I have experience working on both the software and hardware stack of developing and deploying a full-stack LLM based application.
 				</h2>
 			</div>
 		</div>
